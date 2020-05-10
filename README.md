@@ -8,14 +8,14 @@
 
 ## Getting Started
 
-To get started with using **gitauto**, you will need a *Personal Access Token* from GitHub. This token can be used to authenticate everytime you give commands. 
+ - To get started with using **gitauto**, you will need a *Personal Access Token* from GitHub. This token can be used to authenticate everytime you give commands. 
 (Make sure to check Write Repo and Read Repo while creating the TOKEN)
 
-Learn about getting a *Personal Access Token* from GitHub, here.
+ - Learn about getting a *Personal Access Token* from GitHub, here.
 
-You can specify a project directory where you want all your GitHub Projects to go. 
+ - You can specify a project directory where you want all your GitHub Projects to go. 
 
-Create a *.env* file in the *C:/Users/<Username>/* directory with the following parameters. 
+ - Create a *.env* file in the *C:/Users/USER/* directory with the following parameters. 
 
 ```
 TOKEN=****************************************
@@ -47,6 +47,7 @@ npm install gitauto -g
 **gitauto** offers two commands *create* and *delete*
 
 ### create
+
 ```sh
 gitauto create myNewRepo
 ```
@@ -58,6 +59,7 @@ gitauto create myNewRepo
  - Pushes all the changes to the remote repository.  
 
 ### create with flag(-o)
+
 ```sh
 gitauto create myNewRepo -o
 ```
@@ -66,6 +68,7 @@ gitauto create myNewRepo -o
  - *No file changes are made to the system.*
 
 ### delete
+
 ```sh
 gitauto delete myNewRepo
 ```
@@ -74,6 +77,7 @@ gitauto delete myNewRepo
  - *Used for deleting repos existing both on local system as well as remotely.*
 
 ### delete with flag(-o)
+
 ```sh
 gitauto delete myNewRepo -o
 ```

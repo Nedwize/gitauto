@@ -9,7 +9,6 @@ if (result.error) {
   throw result.error
 }
 
-console.log(process.env.TOKEN);
 
 var commands = {
 	init: 'git init',
@@ -40,7 +39,7 @@ function createRepo(name, flag){
 			createDirectory(name);
 		}
 	}).catch(err=>{
-		console.log(chalk`{redBright Here ${err}}`);
+		console.log(chalk`{redBright ${err}\n} {yellowBright Try getting a new Personal Access Token}`);
 	});
 }
 
