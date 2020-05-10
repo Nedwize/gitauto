@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NakshatraCodes/inshorts-api.git"
+    "url": "git+https://github.com/NakshatraCodes/gitauto"
   },
   "keywords": [
     "github",
@@ -28,9 +28,5 @@
     "commander": "^5.1.0",
     "dotenv": "^8.2.0",
     "rimraf": "^3.0.2"
-  },
-  "bugs": {
-    "url": "https://github.com/NakshatraCodes/inshorts-api/issues"
-  },
-  "homepage": "https://github.com/NakshatraCodes/inshorts-api#readme"
+  }
 }
