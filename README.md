@@ -36,7 +36,7 @@ If you get no errors, you're probably good to go.
 
 Install using npm:
 ```sh
-npm install gitauto -g
+npm install gitauto-cli -g
 ```
 *Note: Don't forget to use the -g flag to install it globally in your system.*
 
