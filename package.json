@@ -20,6 +20,7 @@
     "create",
     "repo"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@nakshatracodes" },
   "author": "Nakshatra Saxena",
   "license": "MIT",
   "dependencies": {
