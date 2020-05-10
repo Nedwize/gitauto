@@ -1,0 +1,36 @@
+{
+  "name": "gitauto",
+  "version": "1.0.0",
+  "description": "A command line tool to automate GitHub project creation locally as well as remotely.",
+  "main": "index.js",
+  "bin": {
+    "gitauto": "commands.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NakshatraCodes/inshorts-api.git"
+  },
+  "keywords": [
+    "github",
+    "project",
+    "automate",
+    "create",
+    "repo"
+  ],
+  "author": "Nakshatra Saxena",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^17.8.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "rimraf": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/NakshatraCodes/inshorts-api/issues"
+  },
+  "homepage": "https://github.com/NakshatraCodes/inshorts-api#readme"
+}
