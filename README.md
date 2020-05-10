@@ -1,8 +1,7 @@
-# gitauto
+# gitauto [![@latest](https://img.shields.io/badge/git-automate-blue)](https://github.com/NakshatraCodes)
 
 > A command line tool to automate GitHub project creation locally as well as remotely.
 
-[![@latest](https://img.shields.io/badge/git-automate-blue)](https://github.com/NakshatraCodes)
 [![@latest](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/NakshatraCodes)
 [![@latest](https://img.shields.io/badge/license-MIT-blue)](https://github.com/NakshatraCodes)
 
@@ -11,7 +10,7 @@
  - To get started with using **gitauto**, you will need a *Personal Access Token* from GitHub. This token can be used to authenticate everytime you give commands. 
 (Make sure to check Write Repo and Read Repo while creating the TOKEN)
 
- - Learn about getting a *Personal Access Token* from GitHub, here.
+ - Learn about getting a *Personal Access Token* from GitHub, [here](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
 
  - You can specify a project directory where you want all your GitHub Projects to go. 
 
