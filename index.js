@@ -1,5 +1,5 @@
 
-const result = require('dotenv').config();
+const result = require('dotenv').config({path: './.env'});
 const cp = require('child_process');
 const chalk = require('chalk');
 const rimraf = require('rimraf');
