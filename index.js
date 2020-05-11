@@ -1,5 +1,7 @@
 
-const result = require('dotenv').config({path: './.env'});
+const p = require('path');
+var dir = p.join(__dirname,'/.env');
+const result = require('dotenv').config({path: dir});
 const cp = require('child_process');
 const chalk = require('chalk');
 const rimraf = require('rimraf');
@@ -8,6 +10,7 @@ const rimraf = require('rimraf');
 if (result.error) {
   throw result.error
 }
+
 
 
 var commands = {

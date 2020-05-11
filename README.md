@@ -14,7 +14,7 @@
 
  - You can specify a project directory where you want all your GitHub Projects to go. 
 
- - Create a *.env* file in the *C:/Users/USER/* directory with the following parameters. 
+ - Create a *.env* file in the *C:/Users/USER/AppData/Roaming/npm/node_modules/gitauto-cli/* directory with the following parameters. 
 
 ```
 TOKEN=****************************************
