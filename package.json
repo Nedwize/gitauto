@@ -1,6 +1,6 @@
 {
   "name": "gitauto-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A command line tool to automate GitHub project creation locally as well as remotely.",
   "main": "index.js",
   "bin": {
