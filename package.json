@@ -24,7 +24,7 @@
   "author": "Nakshatra Saxena",
   "license": "MIT",
   "dependencies": {
-    "@octokit/rest": "^17.8.0",
+    "@octokit/rest": "^19.0.13",
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
     "dotenv": "^8.2.0",
